@@ -1,0 +1,10 @@
+﻿<Window x:Class="VirtualConnection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DataGrid Name="VirtualConnectionDataGrid"></DataGrid>
+        <Button Content="Save" HorizontalAlignment="Left" Height="23" Margin="387,289,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.869,-11.132" Click="Button_Click"/>
+    </Grid>
+
+</Window>
